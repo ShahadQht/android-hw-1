@@ -1,0 +1,22 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+
+        double k = 80;
+        char g = 'x' ; 
+
+        if (k>=90){
+            g = 'A' ;
+        } else if (k>=80){
+            g = 'B' ;
+        } else if (k>=70){
+            g = 'C' ;
+        } else if (k>=60){
+            g = 'D' ;
+        } else if (k<60){
+            g = 'F' ;
+        }
+
+        System.out.println(g) ;
+     }
+}
